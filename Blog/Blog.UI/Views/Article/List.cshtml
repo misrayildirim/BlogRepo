@@ -1,0 +1,63 @@
+﻿@model List<Blog.Entities.Entities.Article>
+
+<p style="padding:10px; border:1px solid gray; font-weight:bold;">
+    Makale Listesi
+    <button type="button" class="btn btn-sm btn-success float-right" onclick="Form()">
+        <i class="fa fa-plus"></i> Ekle
+    </button>
+</p>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Makale Adı</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+       
+        
+        @if (Model != null || Model.Count() > 0)
+        {
+
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Title</td>
+                    <td>
+                        <button type="button" class="btn btn-sm btn-primary" onclick="Form('@item.ID')">
+                            <i class="fa fa-edit"></i> Düzenle
+                        </button>
+                        <button type="button" class="btn btn-sm btn-danger">
+                            <i class="fa fa-trash"></i> Sil
+                        </button>
+                        
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+
+<div id="article-form"></div>
+
+@section scripts{
+    <script>
+        function Form(ID) {
+            $.ajax({
+                url: "/" + ID + "/makale-form",
+                type: "get",
+                dataType: "html",
+                success: function (data) {
+                    $("#category-form").html(data);
+                }
+            })
+
+            console.log("deneme");
+
+
+        }
+    </script>
+}

@@ -1,0 +1,12 @@
+C:\Users\berat\source\repos\Blog\Blog.Entities\bin\Debug\net6.0\Blog.Entities.deps.json
+C:\Users\berat\source\repos\Blog\Blog.Entities\bin\Debug\net6.0\Blog.Entities.dll
+C:\Users\berat\source\repos\Blog\Blog.Entities\bin\Debug\net6.0\Blog.Entities.pdb
+C:\Users\berat\source\repos\Blog\Blog.Entities\obj\Debug\net6.0\Blog.Entities.csproj.AssemblyReference.cache
+C:\Users\berat\source\repos\Blog\Blog.Entities\obj\Debug\net6.0\Blog.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berat\source\repos\Blog\Blog.Entities\obj\Debug\net6.0\Blog.Entities.AssemblyInfoInputs.cache
+C:\Users\berat\source\repos\Blog\Blog.Entities\obj\Debug\net6.0\Blog.Entities.AssemblyInfo.cs
+C:\Users\berat\source\repos\Blog\Blog.Entities\obj\Debug\net6.0\Blog.Entities.csproj.CoreCompileInputs.cache
+C:\Users\berat\source\repos\Blog\Blog.Entities\obj\Debug\net6.0\Blog.Entities.dll
+C:\Users\berat\source\repos\Blog\Blog.Entities\obj\Debug\net6.0\refint\Blog.Entities.dll
+C:\Users\berat\source\repos\Blog\Blog.Entities\obj\Debug\net6.0\Blog.Entities.pdb
+C:\Users\berat\source\repos\Blog\Blog.Entities\obj\Debug\net6.0\ref\Blog.Entities.dll

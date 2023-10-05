@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Blog.UI",
+    "\\Blog.UI\\Controllers",
+    "\\Blog.UI\\Views",
+    "\\Blog.UI\\Views\\Article",
+    "\\Blog.UI\\Views\\Category",
+    "\\Blog.UI\\Views\\Comment",
+    "\\Blog.UI\\Views\\Home",
+    "\\Blog.UI\\Views\\Shared",
+    "\\Blog.UI\\Views\\Subcategory"
+  ],
+  "SelectedNode": "\\Blog.sln",
+  "PreviewInSolutionExplorer": false
+}
